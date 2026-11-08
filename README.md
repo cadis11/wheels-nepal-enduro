@@ -6,7 +6,7 @@ Run locally: `python3 -m http.server 8000` then open http://localhost:8000
 
 ## Change brand, tagline, phones, social links
 Edit `js/config.js` only. Header, footer, contact page and WhatsApp links update everywhere.
-If the brand name changes, also search & replace "Wheels Nepal Enduro" in the `<title>`/meta tags of the `*.html` files, and set the real domain in `sitemap.xml`, `robots.txt` and the `og:url`/`canonical` tags (currently `https://wheels-nepal-site.vercel.app`).
+If the brand name changes, also search & replace "Wheels Nepal Enduro" in the `<title>`/meta tags of the `*.html` files, and set the real domain in `sitemap.xml`, `robots.txt` and the `og:url`/`canonical` tags (currently `https://wheels-nepal.vercel.app`).
 
 ## Add a new event
 1. Add an object to `js/events-data.js` (copy an existing one; `status` is `upcoming` or `past`).

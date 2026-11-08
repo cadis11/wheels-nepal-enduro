@@ -14,7 +14,7 @@ window.SITE = {
     "Enduro races, bike rides and camping from Pokhara, Nepal. Events by Wheels Adventure Nepal.",
   city: "Pokhara, Nepal",
   /* Set to the real domain once known (used only for display/ICS). */
-  url: "https://wheels-nepal-site.vercel.app",
+  url: "https://wheels-nepal.vercel.app",
 
   phones: [
     { display: "+977 9802822902", tel: "+9779802822902" }
