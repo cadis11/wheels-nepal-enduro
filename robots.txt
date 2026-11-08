@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /events/_template.html
+Sitemap: https://wheels-nepal-site.vercel.app/sitemap.xml

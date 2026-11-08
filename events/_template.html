@@ -1,0 +1,41 @@
+<!doctype html>
+<!-- EVENT PAGE TEMPLATE.
+ 1. Add an object to js/events-data.js (copy an existing one). Its "slug" must match the file name you create here.
+ 2. Copy this file to events/<slug>.html and set: data-slug below, <title>, meta description, og:title, og:description, og:url, canonical.
+ 3. Add the new event to sitemap.xml. Home, Events index, footer and cards update automatically. -->
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EVENT NAME | Wheels Nepal</title>
+<meta name="description" content="One-sentence description of the event, with date and place.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#14170f">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Wheels Nepal">
+<meta property="og:title" content="EVENT NAME | Wheels Nepal">
+<meta property="og:description" content="One-sentence description of the event, with date and place.">
+<meta property="og:url" content="https://wheels-nepal-site.vercel.app/events/_template.html">
+<meta property="og:image" content="https://wheels-nepal-site.vercel.app/assets/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Wheels Nepal: enduro races, bike rides and treks from Pokhara, Nepal">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preload" href="../assets/fonts/barlow-condensed-latin-800-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/barlow-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body data-nav="events.html">
+<a class="skip" href="#main">Skip to content</a>
+<header id="site-header"></header>
+<noscript><nav aria-label="Main (no JavaScript)" style="padding:12px 20px;background:#0d0f09"><a href="../index.html">Home</a> &middot; <a href="../events.html">Events</a> &middot; <a href="../trekking.html">Trekking</a> &middot; <a href="../bike-rides.html">Bike Rides</a> &middot; <a href="../gallery.html">Gallery</a> &middot; <a href="../about.html">About</a> &middot; <a href="../partners.html">Partners</a> &middot; <a href="../contact.html">Contact</a></nav></noscript>
+<main id="main">
+<div id="event-root" data-slug="your-event-slug"><div class="wrap section"><h1>Event</h1></div></div>
+</main>
+<footer id="site-footer"></footer>
+<script src="../js/config.js"></script>
+<script src="../js/events-data.js"></script>
+<script src="../js/app.js"></script>
+</body>
+</html>
