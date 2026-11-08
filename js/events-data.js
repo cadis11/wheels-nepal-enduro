@@ -48,7 +48,7 @@ window.EVENTS = [
     scheduleTitle: "Tentative schedule",
     scheduleNote: "The programme is tentative and may change. Confirmed timings will be announced here.",
     schedule: [
-      { day: "Day 1", date: "Thu 18 Feb", text: "Registration, camping, expo and live music.", img: { name: "day1", w: 750, h: 457, alt: "Riders roll out under a Wheels Nepal start gate with spectators lining the track." } },
+      { day: "Day 1", date: "Thu 18 Feb", text: "Registration, camping, expo and live music.", img: { name: "day1", w: 750, h: 457, alt: "Riders roll out under a Wheels Nepal Enduro start gate with spectators lining the track." } },
       { day: "Day 2", date: "Fri 19 Feb", text: "Qualifying, adventure activities, concert and bonfire.", img: { name: "day2", w: 746, h: 457, alt: "A rider in a hi-vis jersey descends a hillside above a river valley." } },
       { day: "Day 3", date: "Sat 20 Feb", text: "Enduro finals, prize ceremony and closing.", img: { name: "day3", w: 750, h: 457, alt: "A rider powers through dust past a line of spectators." } }
     ],

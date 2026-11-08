@@ -1,4 +1,4 @@
-/* Wheels Nepal site script. No dependencies, no build step.
+/* Wheels Nepal Enduro site script. No dependencies, no build step.
    Reads js/config.js (window.SITE) and js/events-data.js (window.EVENTS). */
 (function () {
   "use strict";
@@ -156,7 +156,7 @@
   }
   function soonCard() {
     return '<article class="card card--soon reveal"><div class="card-body"><span class="badge badge--soon">Coming soon</span><h3 style="margin-top:14px">More events on the way</h3>' +
-      '<p>New rides, races and treks will be announced here. Message us to hear first.</p>' +
+      '<p>New rides, races and camping trips will be announced here. Message us to hear first.</p>' +
       '<a class="btn btn--ghost" href="' + root + 'contact.html?topic=updates">Get updates</a></div></article>';
   }
   function renderCards() {
@@ -430,7 +430,7 @@
     var status = $("#form-status"), params = new URLSearchParams(location.search);
     var topic = params.get("topic"), evName = params.get("event");
     var sel = f.elements.topic;
-    var map = { sponsor: "Sponsorship / partnership", event: "An event", trek: "Trekking", ride: "Bike rides", updates: "Get event updates" };
+    var map = { sponsor: "Sponsorship / partnership", event: "An event", camp: "Camping", ride: "Bike rides", updates: "Get event updates" };
     if (topic && map[topic]) sel.value = map[topic];
     if (evName && !f.elements.message.value) f.elements.message.value = "Hello! I would like to know more about " + evName + ".";
     if (!SITE.email) { var mb = $("#send-mail"); if (mb) mb.hidden = true; }
