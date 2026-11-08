@@ -315,6 +315,12 @@
         e.highlights.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul></div></section>";
     }
 
+    /* classes */
+    if (e.classes) {
+      h += '<section class="section" aria-labelledby="ev-cls"><div class="wrap"><p class="kicker">Competition</p><h2 id="ev-cls">' + esc(e.classesTitle || "Classes") + '</h2><span class="swash"></span><dl class="facts" style="max-width:62ch">' +
+        e.classes.map(function (c) { return "<div><dt>" + esc(c[0]) + "</dt><dd>" + esc(c[1]) + "</dd></div>"; }).join("") + "</dl></div></section>";
+    }
+
     /* schedule */
     if (e.schedule) {
       h += '<section class="section section--surface" aria-labelledby="ev-sched"><div class="edge"></div><div class="wrap"><p class="kicker">Programme</p><h2 id="ev-sched">' + esc(e.scheduleTitle || "Schedule") + '</h2><span class="swash"></span><div class="days">' +

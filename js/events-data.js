@@ -83,26 +83,29 @@ window.EVENTS = [
     name: "Pokhara Monsoon Madness",
     subtitle: "Dirt bike race",
     type: "Off-road dirt bike race + monsoon adventure festival",
-    start: null,
-    end: null,
-    dateText: "Monsoon 2026 (exact dates to be confirmed)",
-    duration: "Two days",
+    start: "2026-06-30",
+    end: "2026-06-30",
+    tz: "+05:45",
+    dateText: "30 June 2026",
+    duration: "Race day",
     venue: "Pokhara",
     city: "Pokhara, Nepal",
     organiser: "Wheels Adventure Nepal",
     logo: "logo-monsoon",
     logoSize: [153, 145],
-    cardImg: { name: "rider-mud", w: 701, h: 802, alt: "A mud-covered rider leans a dirt bike through a corner." , fallbackLogo: true },
-    heroImg: null,
+    cardImg: { name: "mm-rider-mud", w: 960, h: 536, alt: "A mud-covered rider leans a dirt bike through a rice-field corner as spectators watch from under umbrellas." },
+    heroImg: { name: "mm-track-aerial", w: 1376, h: 768, alt: "Aerial view of a muddy dirt bike track looping through terraced rice fields beside a lake." },
     blurb:
-      "A monsoon adventure festival that combines Nepali culture, off-road motorsports, local traditions and outdoor entertainment.",
+      "Nepal's first monsoon dirt bike race: riders, mud and a Ropai Diwas rice-planting celebration on a track cut through the paddies.",
     about: [
-      "Pokhara Monsoon Madness is a unique monsoon adventure festival that combines Nepalese culture, off-road motorsports, local traditions and outdoor entertainment into one unforgettable experience."
+      "Pokhara Monsoon Madness is a unique monsoon adventure festival that combines Nepalese culture, off-road motorsports, local traditions and outdoor entertainment into one unforgettable experience.",
+      "The inaugural race turned monsoon-soaked rice paddies into a race circuit. Riders took on mud, rain and terraced fields, while the day doubled as a celebration of Ropai Diwas, the traditional rice-planting festival."
     ],
     facts: [
-      ["When", "Monsoon 2026 (exact dates to be confirmed)"],
-      ["Where", "Pokhara"],
-      ["Format", "Off-road dirt bike race, over two days"],
+      ["Date", "30 June 2026"],
+      ["Where", "Pokhara, Gandaki Province"],
+      ["Format", "Off-road dirt bike race with a Ropai Diwas rice-planting celebration"],
+      ["Classes", "Women Open, Men Open, Men Masters 40+"],
       ["Organiser", "Wheels Adventure Nepal"]
     ],
     stats: [
@@ -116,8 +119,31 @@ window.EVENTS = [
       "Strong support from local government and communities.",
       "A boost in tourism and hospitality business in Pokhara."
     ],
-    gallery: [],
-    galleryNote: "Event photos are coming soon.",
-    seo: "Pokhara Monsoon Madness: off-road dirt bike race and monsoon adventure festival in Pokhara. 80+ riders, 10,000+ spectators, 20M+ online views."
+    classesTitle: "Race classes",
+    classes: [
+      ["Women Open", "Open to women riders of all skill levels. The women's race opened the day on the track."],
+      ["Men Open", "The main event: monsoon mud and terraced rice fields, with a podium and prizes for the top finishers."],
+      ["Men Masters 40+", "A separate class for riders aged 40 and above, with its own podium and prizes."]
+    ],
+    scheduleTitle: "Race day schedule",
+    scheduleNote: "As planned for the day.",
+    schedule: [
+      { day: "6:00 AM", date: "Gates open", text: "Rider check-in, bike inspection and stall setup." },
+      { day: "8:00 AM", date: "Ropai Festival", text: "Traditional rice planting ceremony and cultural festivities, open to all." },
+      { day: "9:00 AM", date: "Women Open", text: "Women's race start." },
+      { day: "11:00 AM", date: "Men Open", text: "Men Open race start." },
+      { day: "1:00 PM", date: "Men Masters 40+", text: "Masters class race start." },
+      { day: "3:30 PM", date: "Podium & prizes", text: "Awards, trophies and prize ceremony for the finishers." }
+    ],
+    gallery: [
+      { name: "mm-track-aerial", w: 1376, h: 768, alt: "Aerial view of a muddy dirt bike track looping through terraced rice fields beside a lake." },
+      { name: "mm-race-crowd", w: 960, h: 536, alt: "Two riders race side by side through mud while spectators with umbrellas line the track." },
+      { name: "mm-rider-mud", w: 960, h: 536, alt: "A rider throws mud through a corner with misty hills behind." },
+      { name: "mm-ropai-tug", w: 960, h: 536, alt: "A mud-covered team pulls on a rope in a flooded rice field during Ropai Diwas." },
+      { name: "mm-ropai-planting", w: 960, h: 536, alt: "A man plants rice seedlings in a paddy as a rider passes behind him." },
+      { name: "mm-ropai-filming", w: 960, h: 536, alt: "A cameraman films a farmer planting rice while riders race past." }
+    ],
+    galleryNote: "Event visuals from the Monsoon Madness promotion. Real photos from race day coming soon.",
+    seo: "Pokhara Monsoon Madness: off-road dirt bike race and Ropai Diwas rice-planting festival in Pokhara on 30 June 2026. 80+ riders, 10,000+ spectators, 20M+ online views."
   }
 ];
